@@ -1,0 +1,64 @@
+/* style.css */
+* {
+  margin: 0;
+}
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  background: #dcdcdc;
+}
+
+.card {
+  width: 400px;
+  height: 610px;
+  background: #fff;
+  /* border: 1px solid #ccc; */
+  box-shadow: 4px 4px 8px rgba(0,0,0,0.16);
+  display: inline-block;
+  margin-right: 40px;
+}
+.card:last-child {
+  margin-right: 0;
+}
+
+.card > .info {
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.card h4 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  line-height: 35px;
+}
+.card p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  line-height: 26px;
+}
+.link_btn {
+  display: block;
+  border: 1px solid #707070;
+  padding: 6px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  color: #707070;
+}
+.link_btn:hover {
+  background: rgba(0,0,0,0.1);
+}
+
+section {
+  /* outline: 2px solid red; */
+  width: 1288px;
+  position: absolute;
+  /* 수평 중앙 정렬 = 50% - 크기 1/2 */
+  left: 50%;
+  margin-left: calc(-1288px / 2);
+  /* 수직 중앙 정렬 */
+  top: 50%; 
+  margin-top: calc(-610px / 2);
+}
